@@ -1,0 +1,18 @@
+$TTL      604800
+@         IN         SOA           ns1.iman.com. admin.iman.com. (
+
+                                            5      ; Serial
+                                         3600      ; Refresh
+                                         1800      ; Retry
+                                       604800      ; Expire
+                                        86400  )   ; Minimum TTL
+
+
+iman.com.      IN   NS    ns1.iman.com.
+iman.com.      IN   NS    ns2.iman.com.
+;  set A record
+@               IN   A     192.0.2.1
+ns1             IN   A     185.227.136.16
+ns2             IN   A     185.227.136.16
+www             IN   A     185.227.136.16
+ftp             IN   A     185.227.136.17
